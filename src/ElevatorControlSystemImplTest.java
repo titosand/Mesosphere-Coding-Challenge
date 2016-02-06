@@ -82,6 +82,24 @@ public class ElevatorControlSystemImplTest {
 		System.out.println("Pickup On The Way Down Test:");
 		test = new ElevatorControlSystemImpl(4, 10);
 		test.pickup(4, -1, 1);
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.pickup(3, -1, 2);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
+		test.step();
+		printStatus(test);
 		}
 	
 	/**
