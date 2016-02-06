@@ -19,5 +19,11 @@ My scheduling algorithm is based on the way the elevators in my dorm (a high-ris
 ###Testing/To Do's
 Due to time constraints, my testing framework uses print-statements and prints out the status of an ECS during various situations. This is not ideal, since we would want to use Assert to check that the ECS is operating as it should and properly use the JUnit testing framework. Printing was faster/easier for me at the time, since I could eye-check how the ECS was performing. So, the big To-Do is to test much more thoroughly and modify my tests to use Assert and properly check values.
 
+Moreover, implementing some type of maintenance state that ignores all requests for an elevator would have been nice, since that happens in the real world. An emergency state in which all elevators are deactivated would have been cool, too.
+
 Additionally, there are numerous improvements that can be made to the scheduling algorithm. For instance, if all the elevators are idle for a given time, they should all return to the lobby. Or perhaps, half should return to the lobby and half should return to the middle floor (you can think of this as the ECS running at 3AM and where you would like the elevators to be at 8am when class starts). 
+
+Lastly, I did not do much accounting for bad inputs at the time. One can make the argument that there wouldn't be bad inputs since all these calls would be given by the buttons pressed in the real world (which are all valid), but I would have liked to have been able to go through and include null/bad case tests.
+
+
 
