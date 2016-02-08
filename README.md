@@ -2,7 +2,7 @@
 Implementation of an Elevator Control System
 
 ###Problem Specifications
-Build a basic Elevator Control System (Details @ https://mesosphere.com/careers/challenges/intern/?submitter)
+Build a basic Elevator Control System 
  
 ###Overall Design
 Language: Java 
