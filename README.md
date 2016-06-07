@@ -1,7 +1,6 @@
-whoahdafas
 # Mesosphere-Coding-Challenge
 Implementation of an Elevator Control System
-TEST LOL
+
 ###Problem Specifications
 Build a basic Elevator Control System 
  
